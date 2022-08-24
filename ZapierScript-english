@@ -1,94 +1,90 @@
-Welcome to another BTCPay video, today we are going to use Zapier to trigger an email receipt for every completed sale.
 
-In step one it will ask you a fews questions about your project, answer these with as little or as much detail as you'd like. 
 
-In step two, we can select the apps we'd like to create a zap with.
+00:00 Welcome to another BTCPay video, today we are going to use Zapier to trigger an email receipt for every completed sale at your store
 
-Next search BTCPay in the tool bar, select BTCPay server and then finish setup
+00:08 In step one it will ask you a fews questions about your project
 
-Now you should be in your Zapier dashboard 
+00:13 In step two, we can select the apps we'd like to create a zap with.
 
-Here we can create a zap and setup a trigger. Click create Zap.
+00:18 Next search BTCPay in the tool bar, select BTCPay server and then finish setup
 
-In your new untitled  zap choose BTCPay Server under App event. 
+00:26 Now you should be in your Zapier dashboard 
 
-For this example I'm going to connect gmail and BTCPay server, first start by selecting BTCPay server as the trigger. 
+00:29 Here we can create a zap and setup a trigger. Click create Zap.
 
-In the event dropdown menu you will see some possible triggers to choose from. 
+00:34 In your new untitled  zap first start by selecting BTCPay server as the trigger. 
 
-I'm going to select Payment Received for this zap and click continue.
+00:42 In the event dropdown menu you will see some possible triggers to choose from. 
 
-Next we need to sign in. 
+00:46 I'm going to select Payment Received for this zap and click continue.
 
-This sounds a bit strange in BTCPays context and what it is really asking for here is an API key.
+00:51 Next we need to sign in. 
 
-Go back to your BTCPay server instance and navigate to Account settings, api keys.
+00:53 This sounds a bit strange in BTCPays context and what it is really asking for here is an API key.
 
-For this example I've already created one. 
+00:59 Go back to your BTCPay server instance and navigate to Account settings, api keys.
 
-Click to reveal  and copy paste that into zapier. 
+01:06 For this example I've already created one. 
 
-Make sure to add your public BTCPay server URL, a tor address will not work here. 
+01:08 Click to reveal  and copy paste that into zapier. 
 
-Click yes continue after you've added the URL and api keys.
+01:13 Make sure to add your public BTCPay server URL, a tor address will not work here. 
 
-Now your BTCPay instance is connected and we can complete the trigger setup.
+01:17 Click yes continue after you've added the URL and api keys.
 
-In the set up trigger step you should be able to select one of your BTCPay stores. This can take a second or two to load.
+01:23 Now your BTCPay instance is connected and we can complete the trigger setup.
 
-Once that is available click continue and now were going to test the trigger.
+01:28 In the set up trigger step you should be able to select one of your BTCPay stores. 
 
-If the trigger was successful you will see an invoice was found.
+01:34 This can take a second or two to load.
 
-Scroll down again and click continue to move on to the next step 
+01:36 Once that is available click continue and now were going to test the trigger.
 
-Now it is time to add an action to our trigger.
+01:41 If the trigger was successful you will see an invoice was found.
 
-I'm going to choose Gmail. 
+01:47 Scroll down again and click continue to move on to the next step 
 
-Click the Event dropdown menu to choose an action.
+01:51 Now it is time to add an action to our trigger.
 
-For this example I am going to "send an email".
+01:54 I'm going to choose Gmail. 
 
-Click continue to the next step.
+01:56 Click the Event dropdown menu to choose an action.
 
-Now I need to sign into my Gmail account.
+01:59 For this example I am going to "send an email".
 
-This part can take a little while to load. First I will ask you some privacy sharing questions. 
+02:03 Click continue to the next step.
 
-If you agree you will have connected your gmail account. 
+02:05 Now I need to sign into my Gmail account.
 
-Now we can move on to filling out the rest of the action.
+02:09 This part can take a little while to load. First I will ask you some privacy sharing questions. 
 
-From here you can choose what you would like your action to contain. 
+02:19 If you agree you will have connected your gmail account. Now we can move on to filling out the rest of the action.
 
-For each action there are pre defined options to choose from or your can put in your plain text. 
+02:24 From here you can choose what you would like your action to contain. 
 
-It could be a combination of the store name, total amount of the customers order, and a thank you as the subject.
+02:29 For each action there are pre defined options to choose from or your can put in your plain text. 
 
-For my use case I want this zap to send me an email with a record of the invoice created as the subject field.
+02:39 It could be a combination of the store name, total amount of the customers order, and a thank you as the subject.
 
-I'd like the invoice ID and amount to be in the body of the email. 
+02:46 For my use case I want this zap to send me an email with a record of the invoice created as the subject field.
 
-And lastly I'll add the payment status to the body feild as well.
+03:06 And lastly I'll add the payment status to the body feild as well.
 
-Once you are satified with your action click test and continue. 
+03:20 Once you are satified with your action click test and continue. 
 
-If successful you will receive an email to the gmail account we connected earlier. 
+03:26 If successful you will receive an email to the gmail account we connected earlier. 
 
-Now for the final step click publish to save your Zap.
+03:32 Now for the final step click publish to save your Zap.
 
-The published version of your zap will be shown immediately as a read only copy.
+03:40 The published version of your zap will be shown immediately as a read only copy.
 
-If you notice anything is incorrect this is the time to click edit at the bottom of the page if you need to make any changes.
+03:44 If you notice anything is incorrect this is the time to click edit at the bottom of the page if you need to make any changes.
 
-If everything looks correct to you click close and then the gear icon at the top and you'll be taken back to your zaps home page.
+03:54 If everything looks correct to you click close and then the gear icon at the top and you'll be taken back to your zaps home page.
 
-You should see your published zaps here and can create more from this page as well.
+04:00 You should see your published zaps here and can create more from this page as well.
 
-Thank you for watching another BTCPay instructional video.
-
-I hoped this helped and refer to our docs if you have any more questions on creating a Zap with BTCPay.
+04:05 Thank you for watching another BTCPay instructional video. I hoped this helped and refer to our docs if you have any more questions on creating a Zap with BTCPay.
 
 
 
