@@ -1,0 +1,17 @@
+Wallet File Script 
+
+1 - Welcoome explain video
+2 - Show Dashboard
+3 - Click on Set up a Wallet 
+4 - Leave BTCPay to Electrum
+5 - Create New/Restore Wallet File in Electrum
+6 - Follow wallet set up and save keys 
+7 - File 'Save backup' in electrum
+8 - Return BTCPay connect an existing wallet 
+9 - Import wallet file
+10 - Choose file and locate that saved back up, click continue 
+11 - Check wallet address in BTCPay compared too 'address' view in electrum
+12 - Give it a name and save wallet settings
+13 - Show green light is on under wallets 
+14 - Back to dashboard and show 
+15 - Go back to wallet show Replace / Remove Wallet Features 
