@@ -15,3 +15,62 @@ Wallet File Script
 13 - Show green light is on under wallets 
 14 - Back to dashboard and show 
 15 - Go back to wallet show Replace / Remove Wallet Features 
+
+
+
+Script:
+
+Welcome to another BTCPay instructional video.
+
+In this video I'm going to add a new wallet I've previously created on electrum.
+
+For this example my BTCPay is hosted on my Umbrel node and my lightning node is already connected.
+
+Neither of those are prerequisites just mentionting my set up if yours looks a bit differnt on voltage or another hosting platform.
+
+From the dashboard, click "Set up a Wallet"
+
+Choose "Connect an existing wallet". 
+
+There are many methods to possibly use, for our example we are going to select "Import Wallet File"
+
+Next im going to open up electrum and save a back up of my wallet file. Click on file then "save backup"
+
+Remember where you have saved this for the next step.
+
+Go back to BTCPay where you left off. Click choose file, navigate to where you saved that wallet file and then click continue
+
+To confirm this is the correct wallet file check the addresses listed against your addresses shown in electrum.
+
+If you do not see the addresses tab in electrum click on view then "show addresses"
+
+These should be the same addresses shown in electrum and BTCPay if you have selected the correct wallet file.
+
+After you have checked that finally click confirm. 
+
+Now your new wallet file is connected to this BTCPay store. 
+
+There are some more advanced settings if you'd change your confirmation requirements or invoice expiration time.
+
+The most important thing to keep in mind is each store you create can have its own wallet and lightning node.
+
+When your happy with the settings click save payment settings. 
+
+Lastley if you would like to remove this wallet go back to the dashboard, then click bitcoin under the wallets pannel on the left
+
+At the top you should see a drop down menu called "actions" 
+
+Select remove wallet, then a pop up window will ask you to confirm this action.
+
+Type "remove", note this is case sensitive. 
+
+Thank you for watching another BTCPay instuctional video, please check out documentation if your looking for more information on importing wallet files.
+
+
+
+
+
+
+
+
+
