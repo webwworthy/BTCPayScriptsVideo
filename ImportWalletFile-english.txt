@@ -1,70 +1,52 @@
-Wallet File Script 
+00:00 Welcome to another BTCPay instructional video.
 
-1 - Welcoome explain video
-2 - Show Dashboard
-3 - Click on Set up a Wallet 
-4 - Leave BTCPay to Electrum
-5 - Create New/Restore Wallet File in Electrum
-6 - Follow wallet set up and save keys 
-7 - File 'Save backup' in electrum
-8 - Return BTCPay connect an existing wallet 
-9 - Import wallet file
-10 - Choose file and locate that saved back up, click continue 
-11 - Check wallet address in BTCPay compared too 'address' view in electrum
-12 - Give it a name and save wallet settings
-13 - Show green light is on under wallets 
-14 - Back to dashboard and show 
-15 - Go back to wallet show Replace / Remove Wallet Features 
+00:03 In this video I'm going to add a new wallet I've previously created on electrum.
 
+00:08 From the dashboard, click "Set up a Wallet"
 
+00:10 Then Choose "Connect an existing wallet". 
 
-Script:
+00:13 There are many methods to possibly use, for our example we are going to select "Import Wallet File"
 
-Welcome to another BTCPay instructional video.
+00:19 Next im going to open up electrum and save a back up of my wallet file. 
 
-In this video I'm going to add a new wallet I've previously created on electrum.
+00:24 Click on file then "save backup"
 
-For this example my BTCPay is hosted on my Umbrel node and my lightning node is already connected.
+00:27 Remember where you have saved this for the next step.
 
-Neither of those are prerequisites just mentionting my set up if yours looks a bit differnt on voltage or another hosting platform.
+00:30 Now go back to BTCPay where we left off. 
 
-From the dashboard, click "Set up a Wallet"
+00:33 Click choose file, navigate to where you saved that wallet file and then click continue
 
-Choose "Connect an existing wallet". 
+00:38 To confirm this is the correct wallet file check the addresses listed against your addresses shown in electrum.
 
-There are many methods to possibly use, for our example we are going to select "Import Wallet File"
+00:44 These should be the same addresses shown in electrum and BTCPay if you have selected the correct wallet file.
 
-Next im going to open up electrum and save a back up of my wallet file. Click on file then "save backup"
+00:51 After you have checked that finally click confirm. 
 
-Remember where you have saved this for the next step.
+00:55 Now your new wallet file is connected to this BTCPay store. 
 
-Go back to BTCPay where you left off. Click choose file, navigate to where you saved that wallet file and then click continue
+00:59 There are some more advanced settings if you'd change your confirmation requirements or invoice expiration time.
 
-To confirm this is the correct wallet file check the addresses listed against your addresses shown in electrum.
+01:06 The most important thing to keep in mind is each store you create can have its own wallet and lightning node.
 
-If you do not see the addresses tab in electrum click on view then "show addresses"
+01:12 When your happy with the settings click save payment settings. 
 
-These should be the same addresses shown in electrum and BTCPay if you have selected the correct wallet file.
+01:16 One final thing to mention is if you want to remove this wallet go back to the dashboard
 
-After you have checked that finally click confirm. 
+01:21 then click bitcoin under the wallets pannel on the left
 
-Now your new wallet file is connected to this BTCPay store. 
+01:24 Now click the gear icon in the top right
 
-There are some more advanced settings if you'd change your confirmation requirements or invoice expiration time.
+01:27 you should see a drop down menu called "actions" 
 
-The most important thing to keep in mind is each store you create can have its own wallet and lightning node.
+01:30 Select remove wallet, then a pop up window will ask you to confirm this action.
 
-When your happy with the settings click save payment settings. 
+01:35 Type "remove" and note this is case sensitive. 
 
-Lastley if you would like to remove this wallet go back to the dashboard, then click bitcoin under the wallets pannel on the left
+01:39 Thank you for watching another BTCPay instuctional video
 
-At the top you should see a drop down menu called "actions" 
-
-Select remove wallet, then a pop up window will ask you to confirm this action.
-
-Type "remove", note this is case sensitive. 
-
-Thank you for watching another BTCPay instuctional video, please check out documentation if your looking for more information on importing wallet files.
+01:43 please check out documentation if your looking for more information on importing wallet files.
 
 
 
