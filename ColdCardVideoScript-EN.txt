@@ -1,18 +1,27 @@
 ﻿
-Pre recs
-Node Sync
-Cold Card Seeds Created 
 
 Video 1
 Install Wallet File
 
-Make a new store for this cold card 
-Set Up wallet 
-Import file
+Mention pre req having cold card and node synced
+Cold Card Seeds Created 
+First go to cold card
+Then choose advanced > File Management > Export Wallet 
+Here you can choose between a few standards
+For our example in BTCPAY choose Electrum Wallet
+Then Native-Segwit, you'll get a confirmation the wallet has been exported 
+Now remove the micro sd and place it into the machine you accessing btcpay server
+In this example we're ake a new store for this cold card wallet file
+Choose Set Up wallet 
+Import Wallet file
 Cold Card Advanced ❯ MicroSD Card ❯ Export Wallet ❯ Electrum Wallet
-Choose that file
+Choose that exported wallet file
 Check your addresses against your cold card 
-Check derivation and Xpub in your dashboard
+On you cold card choose Address Explorer then confirm by hitting 4 and chose the address that starts with a "B"
+This is the address type BTCPay will default generate. 
+If you've done this correctly the addresses on screen and addresses on your cold card should match.
+Click confirm to complete the wallet import. 
+If you'd like to double check you've got it workiung check Xpub in your dashboard against the Xpub shown on your cold card screen.
 Create another store with another X Pub
 Show how you could have multiples stores each with their own x pub
 
