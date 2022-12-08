@@ -13,6 +13,8 @@ Cold Card Advanced ❯ MicroSD Card ❯ Export Wallet ❯ Electrum Wallet
 Choose that file
 Check your addresses against your cold card 
 Check derivation and Xpub in your dashboard
+Create another store with another X Pub
+Show how you could have multiples stores each with their own x pub
 
 
 Video 2
