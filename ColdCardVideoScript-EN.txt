@@ -1,0 +1,46 @@
+﻿
+Pre recs
+Node Sync
+Cold Card Seeds Created 
+
+Video 1
+Install Wallet File
+
+Make a new store for this cold card 
+Set Up wallet 
+Import file
+Cold Card Advanced ❯ MicroSD Card ❯ Export Wallet ❯ Electrum Wallet
+Choose that file
+Check your addresses against your cold card 
+Check derivation and Xpub in your dashboard
+
+
+Video 2
+Create PSBT & Sign PBST
+
+To spend bitcoin from these address you can do so right in side of BTCPAY
+Under wallets go to bitcoin, then click Send 
+Enter the destination adress, amount, fee rate. If you want to empty this adress click the "avilible balance"
+If you already have partial signed bitcoin transaction click PSBT
+Otherwise continue on to "sign transaction" to start the PSBT
+For our use with Cold Card specificly we're going to select Partially Signed Bitcoin Transaction
+At the top under trnasactions you'll see the amount your spending and some additional information under inputs
+Until this transaction is signed you'll see a warning sybmol.
+Move past sign transaction for now and click the down arrow to "export PSBT for signing"
+Click download PSBT file, this will auto be named psbt-export.psbt.
+Keep this page open in your browser while you doing the following steps.
+Go to your downloads and I like to rename mine to make it easier to see which PSBT on my cold card
+Save that to a micro SD Go back to cold card and select ready to sign. 
+Find you PSBT on your coldcard and and follow the signing steps.
+Then re insert your micro sd into the machine your accessing btcpay server.
+Return to the transaction details page click the drop down for Provide updated PSBT.
+Choose file and locate your micro SD with the PSBT and click open.
+Next click Decode PSBT and you'll notice page change to confrim broadcasting this transaction.
+Finally click broadcast your transaction and your bitcoin will be spent.
+You'll be retured to your bitcoin wallet settings page with a transaction ID
+Select this ID and go to mempool.space if you'd like to watch the transaction confirmations
+other wise you can see your recent transactions back on the main dashboard.
+
+
+
+
