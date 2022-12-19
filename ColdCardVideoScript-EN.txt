@@ -3,54 +3,66 @@
 Video 1
 Install Wallet File
 
-Mention pre req having cold card and node synced
-Cold Card Seeds Created 
-First go to cold card
-Then choose advanced > File Management > Export Wallet 
-Here you can choose between a few standards
-For our example in BTCPAY choose Electrum Wallet
-Then Native-Segwit, you'll get a confirmation the wallet has been exported 
-Now remove the micro sd and place it into the machine you accessing btcpay server
-In this example we're ake a new store for this cold card wallet file
-Choose Set Up wallet 
-Import Wallet file
-Cold Card Advanced ❯ MicroSD Card ❯ Export Wallet ❯ Electrum Wallet
-Choose that exported wallet file
-Check your addresses against your cold card 
-On you cold card choose Address Explorer then confirm by hitting 4 and chose the address that starts with a "B"
-This is the address type BTCPay will default generate. 
-If you've done this correctly the addresses on screen and addresses on your cold card should match.
+Welcome to another BTCPay video
+Today we are going to install a wallet file from a Cold Card
+Before we begin make sure your wallet seed phrases are written down and stored securely 
+First power the device and enter your pin
+Next make sure an micro SD is in your Cold Card 
+Once your in the UI scroll down to choose advanced > File Management > then Export Wallet 
+For BTCPAY choose Electrum Wallet, Then Native-Segwit
+You'll get a confirmation the wallet has been exported 
+Now remove the micro sd and place it into a device your using to access your BTCPay node
+This should be a laptop or desktop computer, do not insert this into your mynode or umbrel
+In this example we're going to make a new store for this cold card wallet file
+Choose Set Up wallet then connect an existing wallet
+Then select import wallet file and then on the next page click on "choose file"
+Navigate to the Micro SD your wallet file was exported to earlier.
+Once you've imported that addresses will show up on screen
+Check those addresses against your now
+Go back to cold card and choose Address Explorer then confirm by hitting 4 and choose the "bc1 address"
+If you've installed the correct wallet file the addresses on screen and addresses on your cold card should match.
 Click confirm to complete the wallet import. 
-If you'd like to double check you've got it workiung check Xpub in your dashboard against the Xpub shown on your cold card screen.
-Create another store with another X Pub
-Show how you could have multiples stores each with their own x pub
+If you'd like to double check you've got it working check Xpub in your dashboard against the Xpub shown on your cold card screen.
+Create another store with another X Pub and host as many wallet files as you'd like
+Thanks for watching another BTCPay video
+Please reach out to us in our Mattermost for questions or check out our documentation for more information on installing a wallet file.
 
 
 Video 2
 Create PSBT & Sign PBST
 
-To spend bitcoin from these address you can do so right in side of BTCPAY
-Under wallets go to bitcoin, then click Send 
-Enter the destination adress, amount, fee rate. If you want to empty this adress click the "avilible balance"
-If you already have partial signed bitcoin transaction click PSBT
-Otherwise continue on to "sign transaction" to start the PSBT
-For our use with Cold Card specificly we're going to select Partially Signed Bitcoin Transaction
+Welcome to another BTCPay video
+Today we are going to spend bitcoin using our cold card and BTCPay
+Before we begin make sure your you have your cold card wallet file imported and your node is fully synced 
+First we are going to spend bitcoin and you can do that right in side of BTCPAY
+To begin a partial signed bitcoin transaction go to wallets on the left and click on bitcoin
+Then in the top right click "send"
+Enter the destination adress, amount, fee rate.
+Below destination address these is a show coin selection if choose which UTXO you'd like to spend.
+If you want to sweep this wallet completly click the "avilible balance" 
+Next we click "sign transaction" to start the PSBT
+You'll automaticly be taken to a new page to choose your signing method
+For Cold Card specificly we're going to select Partially Signed Bitcoin Transaction
 At the top under trnasactions you'll see the amount your spending and some additional information under inputs
-Until this transaction is signed you'll see a warning sybmol.
-Move past sign transaction for now and click the down arrow to "export PSBT for signing"
+Until this transaction is signed you'll see a warning sybmol under inputs index
+Scroll past sign transaction for now and click the down arrow to "export PSBT for signing"
 Click download PSBT file, this will auto be named psbt-export.psbt.
 Keep this page open in your browser while you doing the following steps.
-Go to your downloads and I like to rename mine to make it easier to see which PSBT on my cold card
-Save that to a micro SD Go back to cold card and select ready to sign. 
-Find you PSBT on your coldcard and and follow the signing steps.
-Then re insert your micro sd into the machine your accessing btcpay server.
+Go to your downloads folder or wherever you told the PSBT to save. 
+I like to rename mine to make it easier to see which PSBT on my cold card
+Save that to a micro SD card 
+No go your cold card and input your pin, once your in the UI select ready to sign. 
+Cold card should recoginize the unsigned PSBT and will ask you if you'd like to sign it.
+Follow the steps to sign the PSBT then re insert your micro sd into the machine your accessing btcpay server.
 Return to the transaction details page click the drop down for Provide updated PSBT.
 Choose file and locate your micro SD with the PSBT and click open.
-Next click Decode PSBT and you'll notice page change to confrim broadcasting this transaction.
-Finally click broadcast your transaction and your bitcoin will be spent.
-You'll be retured to your bitcoin wallet settings page with a transaction ID
-Select this ID and go to mempool.space if you'd like to watch the transaction confirmations
-other wise you can see your recent transactions back on the main dashboard.
+Next click Decode PSBT and you'll notice the page change to confrim broadcasting this transaction.
+Finally click broadcast your bitcoin will be spent.
+You'll be retured to the bitcoin wallet settings page with a transaction ID
+Select, copy and paste this ID into mempool.space if you'd like to watch the transaction confirmations
+Other wise you can see your recent transactions back on the main dashboard.
+Thanks for watching another BTCPay video
+Please reach out to us in our Mattermost for questions or check out our documentation for more information on signing a PSBT.
 
 
 
