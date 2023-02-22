@@ -34,6 +34,12 @@ Create PSBT & Sign PBST
 Welcome to another BTCPay video
 Today we are going to spend bitcoin using our cold card and BTCPay
 Before we begin make sure your you have your cold card wallet file imported and your node is fully synced 
+
+In this video I am going to show you how to do an air gapped transaction. 
+This method is very secure but slightly more complicated than BTCPay Server Vault
+Check the video link down below for more on Vault
+
+
 First we are going to spend bitcoin and you can do that right in side of BTCPAY
 To begin a partial signed bitcoin transaction go to wallets on the left and click on bitcoin
 Then in the top right click "send"
@@ -57,6 +63,8 @@ Follow the steps to sign the PSBT then re insert your micro sd into the machine 
 Return to the transaction details page click the drop down for Provide updated PSBT.
 Choose file and locate your micro SD with the PSBT and click open.
 Next click Decode PSBT and you'll notice the page change to confrim broadcasting this transaction.
+
+---- need to rerecord from here
 Finally click broadcast your bitcoin will be spent.
 You'll be retured to the bitcoin wallet settings page with a transaction ID
 Select, copy and paste this ID into mempool.space if you'd like to watch the transaction confirmations

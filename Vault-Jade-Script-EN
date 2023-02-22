@@ -1,0 +1,13 @@
+Outline
+
+Show off hardware wallet
+
+From a fresh store, connect an existing wallet
+We're going to select connect hardware wallet
+Your computer will look for BTCPay's Vault application
+If you do not have it downloaded follow the link to the releases page and download it
+Run the exe and accept the notice in the vault app
+Now next time you try to connect it will detect your hardware wallet
+In this example I'll be using a Jade wallet
+Select your wallet type and continue. 
+If your jade's firmware is out of date it will ask you to update before continuing
