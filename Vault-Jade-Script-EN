@@ -1,13 +1,31 @@
-Outline
 
-Show off hardware wallet
+Welcome to BTCPay, today we're going to talk about the Jade hardware wallet and BTCPay's Vault application
+In this video I'll show you how easy it is to to set up a hardware wallet and spend from it 
 
-From a fresh store, connect an existing wallet
-We're going to select connect hardware wallet
-Your computer will look for BTCPay's Vault application
+First create a new store, give it a name and hit create
+Next set up a wallet and select connect an existing wallet
+To use BTCPay with Vault, we're going to choose connect hardware wallet
+First it will check if Vault is running
 If you do not have it downloaded follow the link to the releases page and download it
-Run the exe and accept the notice in the vault app
-Now next time you try to connect it will detect your hardware wallet
-In this example I'll be using a Jade wallet
-Select your wallet type and continue. 
+Unzip the application and run it by clicking the exe
+Plug in your hardware signing device, in my example its a Blockstream Jade
+If this is the first time using a hardware device and vault, make sure your accept the notice in vault
+Now next time you try to connect it will detect that hardware device
 If your jade's firmware is out of date it will ask you to update before continuing
+
+You'll notice BTCPay should be scanning when detected return the devices Xpub and addresses 
+Select your address type and click continue
+Next you should see an Xpub and the recieving addresses listed
+Click confirm and your jade wallet is all set up with BTCPay 
+
+Next we're going to sign a transaction using Vault
+Choose Send in the top right
+Then input your destination address and set your fee rate
+When your ready click sign transaction and then Choose Hardware Wallet
+you'll notice it says sign using our Vault Application so make sure that is running 
+It can take a second, check your Jade or signing device for the transaction notice
+Follow the step its asking then return to BTCPay and finally broadcast transaction
+You will be returned to the your wallet page with a notice with your transaction ID
+Here you can add labels to your spending and check its status in the mempool by clicking the transaction id
+
+
