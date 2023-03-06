@@ -1,31 +1,31 @@
 
-Welcome to BTCPay, today we're going to talk about the Jade hardware wallet and BTCPay's Vault application
-In this video I'll show you how easy it is to to set up a hardware wallet and spend from it 
 
-First create a new store, give it a name and hit create
-Next set up a wallet and select connect an existing wallet
-To use BTCPay with Vault, we're going to choose connect hardware wallet
-First it will check if Vault is running
-If you do not have it downloaded follow the link to the releases page and download it
-Unzip the application and run it by clicking the exe
-Plug in your hardware signing device, in my example its a Blockstream Jade
-If this is the first time using a hardware device and vault, make sure your accept the notice in vault
-Now next time you try to connect it will detect that hardware device
-If your jade's firmware is out of date it will ask you to update before continuing
+00:00 Welcome back to BTCPay Server
+00:02 Today we're going to use Vault
+00:04 The simplest way to import your hardware wallet and spend from it
+00:07 First I'm going to have my Jade wallet plugged in and create a new store
+00:11 After you gave it a name hit create
+00:14 And then set up a wallet
+00:16 And connect an existing wallet
+00:18 if you click connect hardware wallet this is going to check if Vault is running
+00:21 if you do not have vault, follow the github link and download it
+00:25 for mac choose dmg and windows choose dot exe
+00:28 run the application and accept the permissions
+00:32 now go back to BTCPay server and its fetched the device
+00:36 Once its recognized choose your address type and hit confirm
+00:40 Now its going to fetch the Xpub, hit continue and confirm these are the correct addresses
+00:46 Click save WALLET* settings and your new hardware wallet is all set up with BTCPay server
+00:51 and now we're going to spend from it
+00:53 click bitcoin in the left and choose send in the top right
+00:56 then put in your desitnation address, amount, and set your fee rate
+01:02 when your ready hit sign transactration then choose hardware wallet
+01:08 make sure your hardware wallet is plugged in and vault is running in the background
+01:11 now you should see your transaction to sign on your hardware device
+01:15 sign it and go back to BTCPay Server to finally broadcast your transaction
+01:20 if you want to check your transaction status in the mempool follow the transaction ID link
+01:25 thanks for watching another BTCPay server video 
+01:28 if you have more questions check our documentation for hardware wallet information
+01:32 or feel free to join our mattermost anytime
 
-You'll notice BTCPay should be scanning when detected return the devices Xpub and addresses 
-Select your address type and click continue
-Next you should see an Xpub and the recieving addresses listed
-Click confirm and your jade wallet is all set up with BTCPay 
-
-Next we're going to sign a transaction using Vault
-Choose Send in the top right
-Then input your destination address and set your fee rate
-When your ready click sign transaction and then Choose Hardware Wallet
-you'll notice it says sign using our Vault Application so make sure that is running 
-It can take a second, check your Jade or signing device for the transaction notice
-Follow the step its asking then return to BTCPay and finally broadcast transaction
-You will be returned to the your wallet page with a notice with your transaction ID
-Here you can add labels to your spending and check its status in the mempool by clicking the transaction id
 
 
