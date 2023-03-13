@@ -3,22 +3,33 @@ BTCPay Docs List:
 
 To be closed:
 #896 Update Cold Card wallet videos for wallet ui updates
-
 https://github.com/btcpayserver/btcpayserver-doc/issues/896
 
 
 Docs Updates:
 
 Hardware Wallet Integration - https://docs.btcpayserver.org/HardwareWalletIntegration/
-
-Complete new images and update for new Vault Video + Cold Card video 
+- Complete new images and update for new Vault Video + Cold Card video 
 
 
 Connect Wallet - https://docs.btcpayserver.org/ConnectWallet/
+- Import wallet, add existing video + more screenshots 
 
-Import wallet, add existing video + more screenshots 
+BTCPay Server vs. Others - https://docs.btcpayserver.org/BTCPayVsOthers/
+- New graphic, could also be a very short video...
+- Could use this in features over view update video as well
+
+
+How to Accept Bitcoin in Woo Commerce - https://docs.btcpayserver.org/WooCommerce/
+- vo is so bad and graphics are so old in video and on page
 
 
 Videos to Make:
 
-Update  “Feature overview video” -  https://github.com/btcpayserver/btcpayserver-doc/issues/1039
+#1039 Update  “Feature overview video” -  https://github.com/btcpayserver/btcpayserver-doc/issues/1039
+
+
+#1061 Create Zapier videos: how to setup your account + do some basic automations  - https://github.com/btcpayserver/btcpayserver-doc/issues/1061
+-  How to do add information to Google Sheets when BTCPay invoice is settled (Zapier)
+-  How to send messages on certain BTCPay invoice status on Slack
+
