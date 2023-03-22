@@ -1,0 +1,62 @@
+Overview
+
+
+Old Video Points
+-------------------------------
+1 - Server Setting 
+    - Total Users
+    - User Policies
+    - Matience
+    - Themes
+    - Services 
+    - Manage your LN nodes - this bit is now in the dashboard so move from this section
+        - RTL + Thunderhub
+
+2 - stores
+    - General Settings 
+    - Checkout experiance 
+    - Show where to find invoices + payments
+
+3 - Check docs
+    - Introduction
+    - Wallets 
+    - API
+
+
+4 - apps
+    - Crowdfund
+        - Show it off
+    - Point of Sale
+        - Show it off
+
+5 - Wallets
+    - Check Balance
+    - Send / Recieve 
+    - Settings 
+        - Change X pub 
+        - Check Address and Derivation 
+
+6 - Payment Requests
+    - Show off 
+        - How to create
+
+
+New Video Point
+-----------------------------
+
+- New dashboard
+- Custodial vs Self Hosted (server settings)
+- Apps vs plugins - do we we going all Apps?
+- New Wallets Tab
+    - Bitcoin 
+        - Send / Recieve
+        - Settings
+            - X pub
+    - Lightning 
+        - Node Info
+        - RTL 
+
+- New Stores Tab
+    - Stack stores 
+        - Seperate X pub for each store
+
