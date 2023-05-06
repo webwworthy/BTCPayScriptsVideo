@@ -1,0 +1,19 @@
+Wecome to another BTCPay server Video
+
+This video is going to cover the basics of BTCPay server hosted locally on an umbrel
+
+If you want to connec this store to a public website that is a bit too advanced for this example and will be covered in another video
+
+Today we have a brand new Umbrel and bitcoin core fully synced 
+First thing we're going to do is go to the app store and download BTCPay Server
+
+We can see it says LND is requried, it doenst need it but for the simplest way to use lighting in BTCPay server download the Lightning Node
+
+create an account, this is your to store share or lose... 
+make sure you remeber this or write it down. BTCPay server isn't a company we don't store this login data or any data at all for that matter. 
+
+Whatever email you use is between just you and your node.
+
+First we need to create a store, this is required to receice and send bitcoin in btcpay server
+
+Name it anything you like and now your in your btcpay store.
