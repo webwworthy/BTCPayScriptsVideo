@@ -1,19 +1,67 @@
 Wecome to another BTCPay server Video
 
-This video is going to cover the basics of BTCPay server hosted locally on an umbrel
+today were going to cover the basics of BTCPay server hosted locally on an umbrel
 
-If you want to connec this store to a public website that is a bit too advanced for this example and will be covered in another video
+If you want to connect this store to a public website that is a bit too advanced for this example and will be covered in another video.
 
-Today we have a brand new Umbrel and bitcoin core fully synced 
-First thing we're going to do is go to the app store and download BTCPay Server
+By the end of this video you'll have a lightning node with liquidity connected to your BTCPay server store.
 
-We can see it says LND is requried, it doenst need it but for the simplest way to use lighting in BTCPay server download the Lightning Node
+If your umbrel up and running with bitcoin core fully synced then you are ready to follow along and lets get into it.
 
-create an account, this is your to store share or lose... 
-make sure you remeber this or write it down. BTCPay server isn't a company we don't store this login data or any data at all for that matter. 
+First thing we're going to do is go to the app store and find BTCPay Server 
 
-Whatever email you use is between just you and your node.
+We can see it says a lightning node is requried, it doesn't run on lighning but for the simplest way to use lighting in BTCPay server download the Lightning Node app
 
-First we need to create a store, this is required to receice and send bitcoin in btcpay server
+Click download and wait for this to finish, its important to have this set up before starting your BTCPay Server on umbrel.
 
-Name it anything you like and now your in your btcpay store.
+This is going to create a wallet with a recovery phrase for your new lightning node, make sure you write this down and store it safley.
+
+Next lets go back and get BTCPay server downloaded, click download and wait for that to finish.
+
+First its going to ask you to create an account.
+
+email for sign up is btcpaytest@proton.me
+
+this is your to store share or lose... make sure you remeber this or write it down. BTCPay server isn't a company. We don't store this login data or any data at all for that matter. 
+
+Now that we've created our "admin" account we need to make our fist store. Creating a store is how you create invoices and send or receive bitcoin to your BTCPay Server.
+
+Similar to log in name it anything you like, we do not store any of this data this is just for your referance. 
+
+Now that you have a store set up lets connect your our umbrel lightning node to start accepting payments
+
+We have some extremely high fees right now so I'm going to show you how to use lightning first.
+
+Choose "Set up a lightning node", the reson we installed lightning node first was so that it can default to that lightning node we've already set up.
+
+Hit save to confirm and return back to the dashboard.
+
+Now we can see a green indicator on the side bar our lightning node is connected. 
+
+Now we are missing one important step, we some lightning liquidity to accept a payment. 
+
+The simplest way to do that is to go to bitrefill and buy some liquidity. If these terms are confusing, don't get discouraged, follow along and it will make sense at the end and I'll add some links in the decription for more referances to lightning channel management.
+
+If  you do not have any bitcoin yet you can buy this with dollars or euros anything that Bitrefill accepts.
+
+For this example I'm going to buy 1 million sats or 0.01 of bitcoin, this will let me recive up to that amount in payments.
+
+Pay for that, and copy your public node ID this is going to be how you tell bitrefill to connect with you.
+
+Follow those steps, this may take some time connect, be patient and they should give you a transaction ID to check when the channel will be open after the payment has confirmed.
+
+
+
+
+
+
+
+Now that you have a store set up lets connect a bitcoin wallet and lightning node so we can accept bitcoin.
+
+For this example I'm going to choose connect an existing wallet, then connect hardware wallet using vault
+
+Make sure vault is running on your computer, if your confused on how to do this part check out our video on "BTCPay Vault".
+
+open a channel from my node to this node, then from my node back to the same node for inbound and outbound liquidity 
+
+Get liquidity from bitrefill
