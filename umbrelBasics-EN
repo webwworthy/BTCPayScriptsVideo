@@ -1,3 +1,5 @@
+
+
 Wecome to another BTCPay server Video
 
 today were going to cover the basics of BTCPay server hosted locally on an umbrel
@@ -14,15 +16,21 @@ We can see it says a lightning node is requried, it doesn't run on lighning but 
 
 Click download and wait for this to finish, its important to have this set up before starting your BTCPay Server on umbrel.
 
-This is going to create a wallet with a recovery phrase for your new lightning node, make sure you write this down and store it safley.
+This is going to create a wallet your lightning node will use. 
+
+Make sure your write this recovery phrase, do not screen shot this, use pen and paper and keep this safe. 
+
+If this is your first time doing this process you can learn more by finding more infomation on "key manament"
 
 Next lets go back and get BTCPay server downloaded, click download and wait for that to finish.
 
 First its going to ask you to create an account.
 
-email for sign up is btcpaytest@proton.me
+#####email for sign up is btcpaytest@proton.me
 
-this is your to store share or lose... make sure you remeber this or write it down. BTCPay server isn't a company. We don't store this login data or any data at all for that matter. 
+this is your to store login to save... we do not send you a "registration email". BTCPay server isn't a company. We don't store this login data or any data at all for that matter. 
+
+If you ask us to recover these logins we cannot help but you have the ablity to create as many user profiles as you choose as the admin of BTC
 
 Now that we've created our "admin" account we need to make our fist store. Creating a store is how you create invoices and send or receive bitcoin to your BTCPay Server.
 
@@ -40,15 +48,69 @@ Now we can see a green indicator on the side bar our lightning node is connected
 
 Now we are missing one important step, we some lightning liquidity to accept a payment. 
 
-The simplest way to do that is to go to bitrefill and buy some liquidity. If these terms are confusing, don't get discouraged, follow along and it will make sense at the end and I'll add some links in the decription for more referances to lightning channel management.
+The simplest way to do that is to go to bitrefill and buy an inbound lightning channel. 
 
-If  you do not have any bitcoin yet you can buy this with dollars or euros anything that Bitrefill accepts.
+If these terms are confusing, don't get discouraged, follow along and it will make sense by the end after we've received a payment.
 
-For this example I'm going to buy 1 million sats or 0.01 of bitcoin, this will let me recive up to that amount in payments.
+Additionally we'll add some links in the decription for more referances to lightning channel management.
 
-Pay for that, and copy your public node ID this is going to be how you tell bitrefill to connect with you.
+Lets go to bitrefill.com and choose the bitcoin catagory.
 
-Follow those steps, this may take some time connect, be patient and they should give you a transaction ID to check when the channel will be open after the payment has confirmed.
+If  you do not have any bitcoin yet you can buy this with dollars, euros, or any form of payment that Bitrefill accepts.
+
+For this example I'm going to buy 1 million sats or 0.01 of bitcoin, this will let me recive up to that amount in payments so about 300ish dollars at the time of recording this.
+
+Pay for that, for my example I've already purchased my channel and will connect it now. 
+
+Choose claim this gift card 
+
+For this example we're going to "manually open lighting channel"
+
+Go back to your BTCPay server and choose lightning, then click public node info
+
+A qr code will appear, click copy to select that node ID, this is important remove the addition info that comes with your node ID.
+
+You only need the ID, thats everything before the "@" symbol
+
+This can take a few minutes to confirm. You'll know your channel is live when you can see it in your lightning node app in umbrel.
+
+Now that we have some inbound liquidity lets create an invoice to pay
+
+There are a couple ways to create an invoice in BTCPay server, first im going to show you the manual way then using the Point of Sale app.
+
+Choose the amount to pay, order ID and item description are up to you
+
+For this example I'm going to unselect on-chain bitcoin. 
+
+If you want to see how to set that up check out our video on "Import a Wallet File" or our video on "BTCPay Server Vault" to connect your store to a hardware wallet.
+
+Further more you can add custom data or an email notification for when the invoice has been paid
+
+Now click create and you'll be taken to the next screen information about the invoice and the option to checkout
+
+Click check out and we can pay that invoice. (Pay invoice)
+
+Now im going to show you how to create an invoice using the point of sale app.
+
+In the side pannel under plugins choose the first option "Point of sale" 
+
+Give it name, I'm going to call mine Hal's Bodega 
+
+Next choose Key pad only and click save, then view to take us to the keypad.
+
+Now this is cool on my computer but its really cool on my phone, select the URL how ever you choose to send it to your mobile device.
+
+###Here we can see the phone creating the invoice
+
+Using whatever device you choose, input an amount and for my example I'm going to select a 10% discount with a 20% tip and hit charge
+
+A lightning invoice will be presented for your customer to pay. 
+
+I'm going to pay this and look at the confetti.
+
+--------
+
+That was the final step on 
 
 
 
@@ -56,12 +118,13 @@ Follow those steps, this may take some time connect, be patient and they should 
 
 
 
-Now that you have a store set up lets connect a bitcoin wallet and lightning node so we can accept bitcoin.
 
-For this example I'm going to choose connect an existing wallet, then connect hardware wallet using vault
 
-Make sure vault is running on your computer, if your confused on how to do this part check out our video on "BTCPay Vault".
 
-open a channel from my node to this node, then from my node back to the same node for inbound and outbound liquidity 
 
-Get liquidity from bitrefill
+
+
+
+
+
+
