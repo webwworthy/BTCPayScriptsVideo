@@ -2,13 +2,16 @@
 
 Wecome to another BTCPay server Video
 
-today were going to cover the basics of BTCPay server hosted locally on an umbrel
+today were going to cover how to install BTCPay with a lightning node on Umbrel
 
-If you want to connect this store to a public website that is a bit too advanced for this example and will be covered in another video.
+by the end of this video you will be able to accept lightning payments to your BTCPay store on your home network. This same process would also apply if your running a umbrel node in s resturant or bussiness.
 
-By the end of this video you'll have a lightning node with liquidity connected to your BTCPay server store.
+If you want to connect this store to a public website running on a hosted server that is a bit too advanced for this example and will be covered in another video.
 
 If your umbrel up and running with bitcoin core fully synced then you are ready to follow along and lets get into it.
+
+
+------------------------------
 
 First thing we're going to do is go to the app store and find BTCPay Server 
 
@@ -42,7 +45,7 @@ We have some extremely high fees right now so I'm going to show you how to use l
 
 Choose "Set up a lightning node", the reson we installed lightning node first was so that it can default to that lightning node we've already set up.
 
-Hit save to confirm and return back to the dashboard.
+Hit save to confirm and return back to the dashboard. 
 
 Now we can see a green indicator on the side bar our lightning node is connected. 
 
@@ -112,6 +115,7 @@ I'm going to pay this and look at the confetti.
 
 That was the final step on 
 
+do a quick over view of other plugins like crowd fund and create a store
 
 
 
