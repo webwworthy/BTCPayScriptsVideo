@@ -1,0 +1,20 @@
+
+Prerequisites:
+- Fully installed Umbrel node
+- BTCPay Server App installed
+- Domain configured to your website?
+
+Needed:
+- Home IP address
+- Umbrel IP Address
+
+Mention
+Server must be exposed to the internet. Local 
+
+Step 1: Pointing the domain name to your home IP address
+Step 2: Verifying the DNS change from step 1
+Step 3: Adding a port forwarding to your local router
+Step 4: Installing NGINX & Certbot
+Step 5: Creating the BTCPay Server configuration for NGINX
+Step 6: Request a new SSL certificate from LetsEncrypt
+Step 7: Manually add the HTTP-redirect

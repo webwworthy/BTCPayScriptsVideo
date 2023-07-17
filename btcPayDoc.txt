@@ -1,0 +1,41 @@
+1 - setup hook (block size wars)
+2 - problem of 3rd party solutions
+3 - how btcpay changes (foss explanation)
+4 - how bitcoin changes (bips)
+5 - btcpay in practice (enrique)
+6 - currency conflicts history (rockstar hyperinflalation / enrique dollarization)
+
+
+Interviews
+----------------------
+Nicolas Dorier
+Rockstar Dev
+Enrique Bitcoin Smiles
+Bitcoin Ekasi
+
+Conferance Conversations
+--------------------
+- Drew Armstrong
+- Sam's kid duo
+- Pacifica bitcoin
+- Crypto Cloaks Rick
+- Enrique Bitcoin Smiles
+- Evan K 
+- Derek Ross - Nostr
+- Soft Simon
+- Honey Badger Conf organizer
+- Safadien 
+- Paco Bitcoin runner  
+- Tahni Brother 
+- Roy 
+- Stephan Livera 
+- Satoshi Labs
+- Branden Bitcoin Ekasi 
+- ArtbySF Dutch Bitcoiner
+
+
+
+Central conflict is the blocksize war. 
+
+Concusion / takeaway if you were previously unaware of bitcoin / foss / btcpay:
+Bips do allow bitcoin to evolve and as long as we have that base we can build amazing things on top of that and BTCPay Server is the shining example of that.
